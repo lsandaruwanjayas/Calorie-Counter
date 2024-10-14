@@ -1,0 +1,66 @@
+:root{
+    --whiteSmoke : #F5F5F5;
+    --black-blue: #040720;
+    --dark-slate: #2B3856;
+    --safety-yellow: #EED202;
+    --saffron: #FBB917;
+    --powder-pink: #FFB2D0;
+    --carbon-red: #A70D2A;
+    --jade: #00A36C;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: var(--black-blue);
+    color: var(--whiteSmoke);
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    max-width: 650px;
+}
+
+h1, .container, .output{
+    margin: 50px auto;
+}
+
+label, legend{
+    font-weight: bold;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--safety-yellow);
+    border: 2px solid var(--saffron);
+}
+
+button, input, select{
+    min-height: 25px;
+    color: var(--dark-slate);
+}
+
+fieldset, label, button, input, select{
+    margin-bottom: 20px;
+}
+
+.output{
+    border: 2px solid var(--whiteSmoke);
+    padding: 10px;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+ 
