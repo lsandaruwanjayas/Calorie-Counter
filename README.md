@@ -1,3 +1,3 @@
 Calorie Counter
 
-<p><a>https://lsandaruwanjayas.github.io/Calorie-Counter/</a>Live preview</p>
+<p><a href="https://lsandaruwanjayas.github.io/Calorie-Counter">Live preview</a></p>
